@@ -1,0 +1,36 @@
+﻿@page
+@model ZaBranchCodeGenerator.Pages.IndexModel
+@{
+    ViewData["Title"] = "ZA Branch Code Generator";
+}
+
+<div class="container py-5">
+    <h2 class="mb-4 text-center text-primary">BankCode Lookup ZA</h2>
+
+    <form method="post" class="row g-3 justify-content-center">
+        <div class="col-md-6">
+            <select class="form-select" asp-for="SelectedBankName">
+                <option value="">-- Select a Bank --</option>
+                @foreach (var bank in Model.Banks)
+                {
+                    <option value="@bank.BankName">@bank.BankName</option>
+                }
+            </select>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Get Branch Code</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.BranchCode))
+    {
+        var bank = Model.Banks.FirstOrDefault(b => b.BankName == Model.SelectedBankName);
+
+        <div class="mt-5 p-4 bg-light rounded shadow-sm border text-center">
+            <h4 class="text-success">Branch Code: @bank?.BankCode</h4>
+            <p class="mb-1"><strong>Bank:</strong> @bank?.BankName</p>
+            <p class="mb-1"><strong>Description:</strong> @bank?.Description</p>
+            <p class="mb-0"><strong>Location:</strong> @bank?.Location</p>
+        </div>
+    }
+</div>
