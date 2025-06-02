@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/image/loopkup.png",
+      "PackagePath": "staticwebassets/image/loopkup.png"
+    },
+    {
       "Id": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

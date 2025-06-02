@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9YaSeqec3kpXoH0v5iyExDM1w6YUh5pxFK9bronAhoU=",
+  "Hash": "iiJfCjCj6UuPhFwWF/ama0nEN0ydGwEp93gvoxgRMjY=",
   "Source": "ZaBranchCodeGenerator",
   "BasePath": "_content/ZaBranchCodeGenerator",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/image/loopkup.png",
+      "SourceId": "ZaBranchCodeGenerator",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/",
+      "BasePath": "_content/ZaBranchCodeGenerator",
+      "RelativePath": "image/loopkup#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lrpnmf9b9v",
+      "Integrity": "MaR9KBW/oENfVKNF+R8u5Dlf6dMl0EWD7yfDVL3C6po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/loopkup.png"
     },
     {
       "Identity": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/js/site.js",
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "image/loopkup.lrpnmf9b9v.png",
+      "AssetFile": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/image/loopkup.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MaR9KBW/oENfVKNF+R8u5Dlf6dMl0EWD7yfDVL3C6po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 18:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lrpnmf9b9v"
+        },
+        {
+          "Name": "label",
+          "Value": "image/loopkup.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MaR9KBW/oENfVKNF+R8u5Dlf6dMl0EWD7yfDVL3C6po="
+        }
+      ]
+    },
+    {
+      "Route": "image/loopkup.png",
+      "AssetFile": "/Users/mphilisenimhlongo/Projects/ZaBranchCodeGenerator/ZaBranchCodeGenerator/wwwroot/image/loopkup.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MaR9KBW/oENfVKNF+R8u5Dlf6dMl0EWD7yfDVL3C6po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 18:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MaR9KBW/oENfVKNF+R8u5Dlf6dMl0EWD7yfDVL3C6po="
         }
       ]
     },
