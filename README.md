@@ -1,4 +1,4 @@
-# ZA Branch Code Generator
+# BankCode Lookup ZA
 
 A utility tool for generating and validating South African bank branch codes.
 
