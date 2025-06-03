@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZaBranchCodeGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39284438cf7b6882e331e070f16ef123a8d6531a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b8f7c9e8d5cb3e8584e3b0b439707a221967249")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZaBranchCodeGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZaBranchCodeGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
